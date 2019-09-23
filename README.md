@@ -48,8 +48,17 @@ List of Data Attributes:
 5. Income Support percent of county income
 6. Veterans Benefits percent of county income
 7. Unemployment Insurance percent of county income
-8. Time
-9.Location of county 
+8. Year
+9. Name of county
+10. U.S. Average of All Government Benefits percent of county income (on hovering over a county) 
+11. U.S. Average of Social Security percent of county income (on hovering over a county) 
+12. U.S. Average of Medicare percent of county income (on hovering over a county) 
+13. U.S. Average of Medicaid percent of county income (on hovering over a county) 
+14. U.S. Average of Income Support percent of county income (on hovering over a county) 
+15. U.S. Average of Veterans Benefits percent of county income (on hovering over a county) 
+16. U.S. Average of Unemployment Insurance percent of county income (on hovering over a county) 
+
+------------------------------------------------------------------------------------------
 
 
 Attribute : All Government Benefits percent of county income
@@ -65,6 +74,7 @@ Attribute : Social Security percent of county income
 Attribute Type : Ordinal
 
 Encoded as(channel): Color (Saturation)  
+
 ------------------------------------------------------------------------------------------
 
 Attribute : Medicare percent of county income
@@ -72,6 +82,7 @@ Attribute : Medicare percent of county income
 Attribute Type : Ordinal
 
 Encoded as(channel): Color (Saturation) 
+
 ------------------------------------------------------------------------------------------
 
 Attribute : Medicaid percent of county income
@@ -121,6 +132,15 @@ Attribute Type : Categorical
 Encoded as(channel): Shape 
 
 ------------------------------------------------------------------------------------------
+
+Attribute : All the U.S.Averages mentioned ( attribute 10 to attribute 16)
+
+Attribute Type : Quantitative
+
+Encoded as(channel): Position(Horizontal and Vertical)-  (on hovering over a county) 
+
+------------------------------------------------------------------------------------------
+
 
 
 #### Chart 2 - [link](http://www.nytimes.com/interactive/2014/10/19/upshot/peyton-manning-breaks-touchdown-passing-record.html)
