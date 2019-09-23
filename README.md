@@ -247,12 +247,18 @@ Attribute Type :Ordinal (Book series are chronological)
 
 Encoded as(channel): 
 
+------------------------------------------------------------------------------------------
+
+
 
 Attribute : Season Number
 
 Attribute Type :Ordinal (Book seasons are chronological)
 
 Encoded as(channel): 
+
+------------------------------------------------------------------------------------------
+
 
 
 Attribute : Number of POV's copied
@@ -274,7 +280,7 @@ Encoded as(channel): Color(Saturation) + Area
 
 ... add comments here
 
-Dataset Type : Geometry
+Dataset Type : Table
 
 
 List of Data Attributes:
