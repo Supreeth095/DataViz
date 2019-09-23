@@ -192,8 +192,11 @@ Dataset Type : Network
 List of Data Attributes:
 
 1.Book Name 
+
 2.Season Number 
+
 3.Number of POV's copied:
+
 
 * Number of POVS copied From “A Game of thrones" to Season 1
 * Number of POVS copied From “A Game of thrones" to Season 2
