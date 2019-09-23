@@ -193,6 +193,37 @@ Color(Saturation) and Area.
 
 ... add comments here
 
+Dataset Type : Geometry
+
+
+List of Data Attributes:
+
+1. Time
+2. Name of the Departments 
+3. Salary belongs to which Department?
+4. Salary Amount
+
+
+
+
+Attribute : Time
+Attribute Type : Ordinal
+Encoded as(channel): color. 
+Reason: On selection, Background color of Time changes to black. Font Color of time changes to white.
+
+Attribute : Name of the Departments
+Attribute Type : Categorical
+Encoded as(channel): Position(Vertical). 
+
+Attribute : Salary belongs to which Department?
+Attribute Type : Categorical
+Encoded as(channel): Colors(hue+saturation)
+ 
+Attribute : Salary Amount
+Attribute Type : Ordinal
+Encoded as(channel): Position(Horizontal).
+ 
+
 
 #### Chart 5 - [link](https://www.ventusky.com)
 
