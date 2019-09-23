@@ -231,3 +231,132 @@ Encoded as(channel): Position(Horizontal).
 ![chart1](images/chart5.jpg)
 
 ... add comments here
+
+5.Dataset Type : Field
+
+
+List of Data Attributes:
+
+1. Temperature
+2. Perceived Temperature
+3. Precipitation
+4. Radar
+5. Clouds Percentage
+6. Wind speed
+7. Wind gusts
+8. Air pressure
+9. Thunderstorm Power
+10. Humidity(Relative)
+11. Humidity(Dew Point)
+12. Waves (Height)
+13. Waves Duration
+14. Snow cover
+15. Freezing level
+16. Date
+17. Time of the Day
+18. Precipitation Accumulation
+19. Altitude above the ground 
+20. Type of Clouds
+21. Animation Level for Wind.
+
+
+
+Attribute : Temperature 
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+
+
+Attribute : Perceived Temperature 
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Precipitation
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue+Saturation)
+
+
+Attribute : Radar
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Clouds Percentage
+Attribute Type : Ordinal
+Encoded as(channel): Color(Luminance) 
+
+
+Attribute : Wind Speed
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Wind Gusts
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Air Pressure
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Thunderstorm Power
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Humidity(Relative)
+Attribute Type : Ordinal
+Encoded as(channel): Color(Luminance)
+
+Attribute : Humidity(Due Point)
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Waves (height)
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Waves (Period)
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue)
+
+Attribute : Snow Cover
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue +Luminance)
+
+Attribute : Freezing Level
+Attribute Type : Ordinal
+Encoded as(channel): Color(hue +Saturation)
+
+Attribute : Date 
+Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets better or Worse with days)
+Encoded as(channel): Shape(letters)
+
+Attribute : Time of the Day 
+Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets warmer or colder with time)
+Encoded as(channel): Position(Horizontal)
+
+
+Attribute : Precipitation Accumulation
+Attribute Type : Categorical
+Encoded as(channel): Drop Down (Pick-list)
+
+
+
+Attribute : Type of Clouds
+Attribute Type : Categorical
+Encoded as(channel): Drop Down (Pick-list)
+
+
+Attribute : Altitude above the ground 
+Attribute Type : Ordinal
+Encoded as(channel): Drop Down (Pick-list)
+
+Attribute : Type of Clouds
+Attribute Type : Categorical
+Encoded as(channel): Drop Down (Pick-list)
+
+Attribute : Animation Level for Wind.
+Attribute Type : Categorical
+Encoded as(channel): Drop Down (Pick-list)
+
+
+
+
