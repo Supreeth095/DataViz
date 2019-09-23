@@ -508,7 +508,7 @@ Encoded as(channel): Color(hue +Saturation)
 
 Attribute : Date 
 
-Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets better or Worse with days)
+Attribute Type : Categorical
 
 Encoded as(channel): Shape(letters)
 
@@ -517,7 +517,7 @@ Encoded as(channel): Shape(letters)
 
 Attribute : Time of the Day 
 
-Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets warmer or colder with time)
+Attribute Type : Ordinal
 
 Encoded as(channel): Position(Horizontal)
 
