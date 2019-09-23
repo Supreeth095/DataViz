@@ -52,42 +52,75 @@ List of Data Attributes:
 9.Location of county 
 
 
-Attribute : All Government Benefits percent of county income 
+Attribute : All Government Benefits percent of county income
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color (Saturation) 
 
+------------------------------------------------------------------------------------------
+
 Attribute : Social Security percent of county income
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color (Saturation)  
+------------------------------------------------------------------------------------------
 
 Attribute : Medicare percent of county income
+
 Attribute Type : Ordinal
-Encoded as(channel): Color (Saturation)  
+
+Encoded as(channel): Color (Saturation) 
+------------------------------------------------------------------------------------------
 
 Attribute : Medicaid percent of county income
+
 Attribute Type : Ordinal
-Encoded as(channel): Color (Saturation)  
+
+Encoded as(channel): Color (Saturation)
+
+------------------------------------------------------------------------------------------
 
 Attribute : Income Support percent of county income
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color (Saturation)  
+
+------------------------------------------------------------------------------------------
 
 Attribute : Veterans Benefits percent of county income
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color (Saturation)  
+
+------------------------------------------------------------------------------------------
 
 Attribute : Unemployment Insurance percent of county income
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color (Saturation)  
 
+------------------------------------------------------------------------------------------
+
 Attribute : Time
+
 Attribute Type : Ordinal
 
 Encoded as(channel): Shape (Letters)
 
+------------------------------------------------------------------------------------------
+
 Attribute : Location of county 
+
 Attribute Type : Categorical
+
 Encoded as(channel): Shape 
+
+------------------------------------------------------------------------------------------
 
 
 #### Chart 2 - [link](http://www.nytimes.com/interactive/2014/10/19/upshot/peyton-manning-breaks-touchdown-passing-record.html)
@@ -104,16 +137,28 @@ List of Data Attributes:
 3. Name of the Player
 
 Attribute : Time
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Position (Horizontal)
 
+------------------------------------------------------------------------------------------
+
 Attribute : Player’s Total count of Touchdown passes after each year
+
 Attribute Type :Categorical
+
 Encoded as(channel): Position (Vertical)
 
+------------------------------------------------------------------------------------------
+
 Attribute : Name of the Player
+
 Attribute Type :Categorical
+
 Encoded as(channel): Shape (a circle)
+
+------------------------------------------------------------------------------------------
 
 #### Chart 3 - [link](http://got-books-to-series.surge.sh) [Spoiler alert for GoT]
 
@@ -167,23 +212,22 @@ List of Data Attributes:
 * Number of POVS copied From “A dance with dragons" to Season 7
 
 
+------------------------------------------------------------------------------------------
 
 All the Attributes are of the Type:
+
 Ordinal 
+
 Reason: The attributes can be Chronologically Ordered (Based on Seasons).
 
+
+------------------------------------------------------------------------------------------
+
 All Attributes are encoded using both:
+
 Color(Saturation) and Area.
 
-
-
-
-
-
-
-
-
-
+------------------------------------------------------------------------------------------
 
 
 
@@ -206,25 +250,43 @@ List of Data Attributes:
 
 
 
+------------------------------------------------------------------------------------------
 
 Attribute : Time
+
 Attribute Type : Ordinal
+
 Encoded as(channel): color. 
+
 Reason: On selection, Background color of Time changes to black. Font Color of time changes to white.
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Name of the Departments
+
 Attribute Type : Categorical
-Encoded as(channel): Position(Vertical). 
+
+Encoded as(channel): Position(Vertical).
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Salary belongs to which Department?
+
 Attribute Type : Categorical
+
 Encoded as(channel): Colors(hue+saturation)
  
-Attribute : Salary Amount
-Attribute Type : Ordinal
-Encoded as(channel): Position(Horizontal).
- 
+------------------------------------------------------------------------------------------
 
+Attribute : Salary Amount
+
+Attribute Type : Ordinal
+
+Encoded as(channel): Position(Horizontal).
+
+------------------------------------------------------------------------------------------
 
 #### Chart 5 - [link](https://www.ventusky.com)
 
@@ -260,102 +322,214 @@ List of Data Attributes:
 21. Animation Level for Wind.
 
 
+------------------------------------------------------------------------------------------
+
 
 Attribute : Temperature 
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 
 
 Attribute : Perceived Temperature 
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Precipitation
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue+Saturation)
+
+------------------------------------------------------------------------------------------
+
 
 
 Attribute : Radar
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Clouds Percentage
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(Luminance) 
+
+------------------------------------------------------------------------------------------
+
 
 
 Attribute : Wind Speed
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Wind Gusts
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Air Pressure
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Thunderstorm Power
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Humidity(Relative)
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(Luminance)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Humidity(Due Point)
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Waves (height)
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Waves (Period)
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Snow Cover
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue +Luminance)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Freezing Level
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Color(hue +Saturation)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Date 
+
 Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets better or Worse with days)
+
 Encoded as(channel): Shape(letters)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Time of the Day 
+
 Attribute Type : Quantitative (Reason: We can compare two dates to see if the weather gets warmer or colder with time)
+
 Encoded as(channel): Position(Horizontal)
+
+------------------------------------------------------------------------------------------
+
 
 
 Attribute : Precipitation Accumulation
+
 Attribute Type : Categorical
+
 Encoded as(channel): Drop Down (Pick-list)
+
+------------------------------------------------------------------------------------------
+
 
 
 
 Attribute : Type of Clouds
+
 Attribute Type : Categorical
+
 Encoded as(channel): Drop Down (Pick-list)
+
+------------------------------------------------------------------------------------------
+
 
 
 Attribute : Altitude above the ground 
+
 Attribute Type : Ordinal
+
 Encoded as(channel): Drop Down (Pick-list)
+
+------------------------------------------------------------------------------------------
+
 
 Attribute : Type of Clouds
+
 Attribute Type : Categorical
+
 Encoded as(channel): Drop Down (Pick-list)
 
+------------------------------------------------------------------------------------------
+
+
 Attribute : Animation Level for Wind.
+
 Attribute Type : Categorical
+
 Encoded as(channel): Drop Down (Pick-list)
+
+------------------------------------------------------------------------------------------
+
 
 
 
