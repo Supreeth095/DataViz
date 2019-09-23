@@ -125,45 +125,45 @@ Dataset Type : Network
 
 List of Data Attributes:
 
-Number of POVS copied From “A Game of thrones" to Season 1
-Number of POVS copied From “A Game of thrones" to Season 2
-Number of POVS copied From “A Game of thrones" to Season 3
-Number of POVS copied From “A Game of thrones" to Season 4
-Number of POVS copied From “A Game of thrones" to Season 5
-Number of POVS copied From “A Game of thrones" to Season 6
-Number of POVS copied From “A Game of thrones" to Season 7
-
-Number of POVS copied From “A Clash of Kings" to Season 1
-Number of POVS copied From “A Clash of Kings" to Season 2
-Number of POVS copied From “A Clash of Kings" to Season 3
-Number of POVS copied From “A Clash of Kings" to Season 4
-Number of POVS copied From “A Clash of Kings" to Season 5
-Number of POVS copied From “A Clash of Kings" to Season 6
-Number of POVS copied From “A Clash of Kings" to Season 7
-
-Number of POVS copied From “Storm of Swords" to Season 1
-Number of POVS copied From “Storm of Swords" to Season 2
-Number of POVS copied From “Storm of Swords" to Season 3
-Number of POVS copied From “Storm of Swords" to Season 4
-Number of POVS copied From “Storm of Swords" to Season 5
-Number of POVS copied From “Storm of Swords" to Season 6
-Number of POVS copied From “Storm of Swords" to Season 7
-
-Number of POVS copied From “A feast for crows" to Season 1
-Number of POVS copied From “A feast for crows" to Season 2
-Number of POVS copied From “A feast for crows" to Season 3
-Number of POVS copied From “A feast for crows" to Season 4
-Number of POVS copied From “A feast for crows" to Season 5
-Number of POVS copied From “A feast for crows" to Season 6
-Number of POVS copied From “A feast for crows" to Season 7
-
-Number of POVS copied From “A dance with dragons" to Season 1
-Number of POVS copied From “A dance with dragons" to Season 2
-Number of POVS copied From “A dance with dragons" to Season 3
-Number of POVS copied From “A dance with dragons" to Season 4
-Number of POVS copied From “A dance with dragons" to Season 5
-Number of POVS copied From “A dance with dragons" to Season 6
-Number of POVS copied From “A dance with dragons" to Season 7
+* Number of POVS copied From “A Game of thrones" to Season 1
+* Number of POVS copied From “A Game of thrones" to Season 2
+* Number of POVS copied From “A Game of thrones" to Season 3
+* Number of POVS copied From “A Game of thrones" to Season 4
+* Number of POVS copied From “A Game of thrones" to Season 5
+* Number of POVS copied From “A Game of thrones" to Season 6
+* Number of POVS copied From “A Game of thrones" to Season 7
+* 
+* Number of POVS copied From “A Clash of Kings" to Season 1
+* Number of POVS copied From “A Clash of Kings" to Season 2
+* Number of POVS copied From “A Clash of Kings" to Season 3
+* Number of POVS copied From “A Clash of Kings" to Season 4
+* Number of POVS copied From “A Clash of Kings" to Season 5
+* Number of POVS copied From “A Clash of Kings" to Season 6
+* Number of POVS copied From “A Clash of Kings" to Season 7
+* 
+* Number of POVS copied From “Storm of Swords" to Season 1
+* Number of POVS copied From “Storm of Swords" to Season 2
+* Number of POVS copied From “Storm of Swords" to Season 3
+* Number of POVS copied From “Storm of Swords" to Season 4
+* Number of POVS copied From “Storm of Swords" to Season 5
+* Number of POVS copied From “Storm of Swords" to Season 6
+* Number of POVS copied From “Storm of Swords" to Season 7
+* 
+* Number of POVS copied From “A feast for crows" to Season 1
+* Number of POVS copied From “A feast for crows" to Season 2
+* Number of POVS copied From “A feast for crows" to Season 3
+* Number of POVS copied From “A feast for crows" to Season 4
+* Number of POVS copied From “A feast for crows" to Season 5
+* Number of POVS copied From “A feast for crows" to Season 6
+* Number of POVS copied From “A feast for crows" to Season 7
+* 
+* Number of POVS copied From “A dance with dragons" to Season 1
+* Number of POVS copied From “A dance with dragons" to Season 2
+* Number of POVS copied From “A dance with dragons" to Season 3
+* Number of POVS copied From “A dance with dragons" to Season 4
+* Number of POVS copied From “A dance with dragons" to Season 5
+* Number of POVS copied From “A dance with dragons" to Season 6
+* Number of POVS copied From “A dance with dragons" to Season 7
 
 
 
@@ -173,6 +173,7 @@ Reason: The attributes can be Chronologically Ordered (Based on Seasons).
 
 All Attributes are encoded using both:
 Color(Saturation) and Area.
+
 
 
 
