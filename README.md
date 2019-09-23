@@ -37,7 +37,7 @@ Modify this same README file adding your comments and descriptions after each im
 
 ... add comments here:
 
-Dataset Type : Table
+Dataset Type : Geometry
 
 List of Data Attributes:
 
