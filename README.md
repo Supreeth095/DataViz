@@ -279,7 +279,7 @@ Dataset Type : Geometry
 
 List of Data Attributes:
 
-1. Time
+1. Time(Year)
 2. Name of the Departments 
 3. Salary belongs to which Department?
 4. Salary Amount
@@ -288,7 +288,7 @@ List of Data Attributes:
 
 ------------------------------------------------------------------------------------------
 
-Attribute : Time
+Attribute : Time(Year)
 
 Attribute Type : Ordinal
 
