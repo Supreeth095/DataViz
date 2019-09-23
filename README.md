@@ -117,7 +117,7 @@ Encoded as(channel): Color (Saturation)
 
 ------------------------------------------------------------------------------------------
 
-Attribute : Time
+Attribute : Time (Year)
 
 Attribute Type : Ordinal
 
@@ -149,14 +149,14 @@ Encoded as(channel): Position(Horizontal and Vertical)-  (on hovering over a cou
 
 ... add comments here
 
-Dataset Type : Geometry
+Dataset Type : Table
 
 List of Data Attributes: 
 1. Time
 2. Player’s Total count of Touchdown passes after each year from 1935 to 2014
 3. Name of the Player
 
-Attribute : Time
+Attribute : Time (Years)
 
 Attribute Type : Ordinal
 
@@ -176,7 +176,7 @@ Attribute : Name of the Player
 
 Attribute Type :Categorical
 
-Encoded as(channel): Shape (a circle)
+Encoded as(channel): Shape (letters)
 
 ------------------------------------------------------------------------------------------
 
@@ -190,6 +190,10 @@ Dataset Type : Network
 
 
 List of Data Attributes:
+
+1.Book Name 
+2.Season Number 
+3.Number of POV's copied:
 
 * Number of POVS copied From “A Game of thrones" to Season 1
 * Number of POVS copied From “A Game of thrones" to Season 2
@@ -232,20 +236,32 @@ List of Data Attributes:
 * Number of POVS copied From “A dance with dragons" to Season 7
 
 
-------------------------------------------------------------------------------------------
-
-All the Attributes are of the Type:
-
-Ordinal 
-
-Reason: The attributes can be Chronologically Ordered (Based on Seasons).
 
 
 ------------------------------------------------------------------------------------------
 
-All Attributes are encoded using both:
 
-Color(Saturation) and Area.
+Attribute : Book Name 
+
+Attribute Type :Ordinal (Book series are chronological)
+
+Encoded as(channel): 
+
+
+Attribute : Season Number
+
+Attribute Type :Ordinal (Book seasons are chronological)
+
+Encoded as(channel): 
+
+
+Attribute : Number of POV's copied
+
+Attribute Type : Quantitative 
+
+Encoded as(channel): Color(Saturation) + Area 
+
+
 
 ------------------------------------------------------------------------------------------
 
