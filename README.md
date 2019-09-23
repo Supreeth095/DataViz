@@ -35,7 +35,57 @@ Modify this same README file adding your comments and descriptions after each im
 
 ![chart1](images/chart1.jpg)
 
-... add comments here
+... add comments here:
+
+Dataset Type : Table
+
+List of Data Attributes:
+1. Name of county
+2. All Government Benefits percent of county income
+3. Social Security percent of county income
+4. Medicare percent of county income
+5. Medicaid percent of county income
+6. Income Support percent of county income
+7. Veterans Benefits percent of county income
+8. Unemployment Insurance percent of county income
+9. Year
+
+
+Attribute : All Government Benefits percent of county income 
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation) 
+
+Attribute : Social Security percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Medicare percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Medicaid percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Income Support percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Veterans Benefits percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Unemployment Insurance percent of county income
+Attribute Type : Ordinal
+Encoded as(channel): Color (Saturation)  
+
+Attribute : Year
+Attribute Type : Ordinal
+Encoded as(channel): Area
+
+Attribute : Location of county 
+Attribute Type : Categorical
+Encoded as(channel): Shape 
 
 
 #### Chart 2 - [link](http://www.nytimes.com/interactive/2014/10/19/upshot/peyton-manning-breaks-touchdown-passing-record.html)
