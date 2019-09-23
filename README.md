@@ -40,15 +40,16 @@ Modify this same README file adding your comments and descriptions after each im
 Dataset Type : Table
 
 List of Data Attributes:
-1. Name of county
-2. All Government Benefits percent of county income
-3. Social Security percent of county income
-4. Medicare percent of county income
-5. Medicaid percent of county income
-6. Income Support percent of county income
-7. Veterans Benefits percent of county income
-8. Unemployment Insurance percent of county income
-9. Year
+
+1. All Government Benefits percent of county income
+2. Social Security percent of county income
+3. Medicare percent of county income
+4. Medicaid percent of county income
+5. Income Support percent of county income
+6. Veterans Benefits percent of county income
+7. Unemployment Insurance percent of county income
+8. Time
+9.Location of county 
 
 
 Attribute : All Government Benefits percent of county income 
@@ -79,7 +80,7 @@ Attribute : Unemployment Insurance percent of county income
 Attribute Type : Ordinal
 Encoded as(channel): Color (Saturation)  
 
-Attribute : Year
+Attribute : Time
 Attribute Type : Ordinal
 Encoded as(channel): Area
 
@@ -93,6 +94,25 @@ Encoded as(channel): Shape
 ![chart1](images/chart2.jpg)
 
 ... add comments here
+
+Dataset Type : Geometry
+
+List of Data Attributes: 
+1. Time
+2. Player’s Total count of Touchdown passes after each year from 1935 to 2014
+3. Name of the Player
+
+Attribute : Time
+Attribute Type : Ordinal
+Encoded as(channel): Position (Horizontal)
+
+Attribute : Player’s Total count of Touchdown passes after each year
+Attribute Type :Categorical
+Encoded as(channel): Position (Vertical)
+
+Attribute : Name of the Player
+Attribute Type :Categorical
+Encoded as(channel): Shape (a circle)
 
 #### Chart 3 - [link](http://got-books-to-series.surge.sh) [Spoiler alert for GoT]
 
