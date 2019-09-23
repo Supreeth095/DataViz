@@ -82,7 +82,8 @@ Encoded as(channel): Color (Saturation)
 
 Attribute : Time
 Attribute Type : Ordinal
-Encoded as(channel): Area
+
+Encoded as(channel): Shape (Letters)
 
 Attribute : Location of county 
 Attribute Type : Categorical
